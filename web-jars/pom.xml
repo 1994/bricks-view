@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bricks-view-web-jars</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>amis</module>
+    </modules>
 
     <properties>
     </properties>
