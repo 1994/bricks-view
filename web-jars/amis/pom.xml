@@ -12,7 +12,7 @@
     <version>1.10.2</version>
 
     <properties>
-        <kotlin.version>1.7.0</kotlin.version>
+        <kotlin.version>1.6.21</kotlin.version>
     </properties>
 
 
@@ -36,6 +36,7 @@
             <version>${kotlin.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -66,9 +67,13 @@
                         </goals>
                     </execution>
                 </executions>
+<!--                <configuration>-->
+<!--                    <jvmTarget>1.8</jvmTarget>-->
+<!--                </configuration>-->
                 <configuration>
                     <jvmTarget>1.8</jvmTarget>
                 </configuration>
+
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -6,6 +6,6 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain = true)
 public class InputText {
-    private String label;
-    private String name;
+    protected String label;
+    protected String name;
 }
